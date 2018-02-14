@@ -18,7 +18,7 @@ int main()
 	short *video_memory;
 	video_memory = VIDEO_MEMORY;
 	video_memory += 31;
-	while ( i < 24 ) {
+	while ( i < 26 ) {
 		*video_memory = load_char(kernel[i]);
 		video_memory += 1;
 		i += 1;
